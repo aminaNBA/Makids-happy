@@ -13,7 +13,7 @@ header{
 }
 
 .logo{
-    color: aqua;
+    color: #962d21;
     height: 50px;
     font-size: 36px;
     line-height: 60px;
@@ -22,6 +22,10 @@ header{
     box-sizing: border-box;
     float: left;
     text-decoration: none;
+}
+
+.logo:hover{
+    color: #d49625;
 }
 
 nav {
@@ -54,7 +58,7 @@ nav ul li a{
 
 nav ul li a.active,
 nav ul li a:hover{
-    background: rgba(207, 62, 207, 0.822);
+    background: #d49625;
     color: #fff;
     transition: .5s;
     border-radius: 20px;

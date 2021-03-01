@@ -4,55 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
-    <link rel="stylesheet" href="css/style.css">
-   
-    <title>Le Bonheur d'enfant / Les orphelins du monde</title>
-     
+
+    <link rel="stylesheet"  href="css/style.css">
+    <title>makids happy</title>
 </head>
 <body>
-    
+    <header>
+        <a href="#" class="logo">MAKIDS HAPPY</a>
+        <div class="menu-toggle"></div>
+        <nav>
+            <ul>
+              <li><a href="/index.html" class="active" >Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/Event.html">Event</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
     <section class="showcase" id="home">
-        <header>
-            <h2 class="logo">Le Bonheur d'enfant</h2>
-            <div class="menu-toggle"></div>
-    <nav>
-        <ul>
-            <li><a href="/index.html" class="active" >Home</a></li>
-            <li><a href="/about">About us</a></li>
-            <li><a href="/Event.html">Event</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="clearfix" ></div>
-        </header>
+       
 
-        <video src="ved/orpho.mp4" autoplay loop></video>
-        
-        
+        <video  src="ved/orpho.mp4" loop autoplay></video>
+                <div class="overlay"></div>
+
         <div class="text">
-            <h2>Never Stop</h2>
-            <h3>Exploring the world</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi consectetur deleniti harum laborum quaerat sint libero dicta dolorem culpa earum, necessitatibus sapiente quibusdam unde nostrum ipsum officiis doloremque. Neque?</p>
-            <button class="faireundon"><a href="#"><img src="img/heart.png">Faire un don</a></button>
+            <h2>Never Stop To</h2>
+            <h3>Make Kids Happy</h3>
+            <p>Our objectives are to support any effort to help orphans and children in need, and to work with other organizations toward the same goal.</p>
+            <button>Donate Now</button>
         </div>
 
         <ul class="social">
-           <li><a href="#"><img src="img/icons8-facebook-48 (1).png" alt="Facebook"></a></li>
-           <li><a href="#"><img src="img/icons8-instagram-48.png" alt="Instagram"></a></li>
-           <li><a href="#"><img src="img/icons8-twitter-48.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="img/icons8-facebook-48 (1).png" alt=""></a></li>
+            <li><a href="#"><img src="img/icons8-instagram-48.png" alt=""></a></li>
+            <li><a href="#"><img src="img/icons8-twitter-48.png" alt=""></a></li>
         </ul>
     </section>
     
-       
+
+    <!-- <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.showcase('active')
+            
+        })
+    </script> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
     <script type="text/javascript">
     $(document).ready(function(){
-
+    
     })
         $('.menu-toggle').click(function(){
             $('.menu-toggle').toggleClass('active')
@@ -60,7 +65,10 @@
         })
     
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
+    <script type="text/javascript">
+   
+    </script>
 </body>
-
-
 </html>
